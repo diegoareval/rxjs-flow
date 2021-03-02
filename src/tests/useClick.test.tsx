@@ -1,5 +1,7 @@
 import React from 'react'
-import {isString, makeObservable, useClick } from '../hooks/useClick'
+import { useClick } from '../hooks/useClick'
+import {makeObservable} from "../observable"
+import {isString} from "../helper"
 import {Observable} from 'rxjs'
 import { render} from '@testing-library/react'
 import { renderHook, act as hookAct } from '@testing-library/react-hooks'
